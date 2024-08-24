@@ -29,3 +29,15 @@
 - p18_TrabajandoConstantes
 - p19_TrabajandoCaracteres
 - p20_ConversionTipos
+
+## Actividad 4  - Ejecución condicional parte 1
+- p21_VerificarNumero
+- p22_VerificarSuma
+- p23_ConvertirTemperatura
+- p24_PagaTrabajadorv2
+
+## Actividad 5 - Ejecución condicional parte 2
+- p25_EstacionesAño
+- p26_TipoAngulo
+- p27_AceptarEstudiante
+- p28_LeyDeNewton
