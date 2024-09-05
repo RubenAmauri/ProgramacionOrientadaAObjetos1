@@ -1,4 +1,4 @@
-// p44_ParesAscendente - Solicita al usuario un número desde el que se repetirán números impares de forma descendente
+// p45_ImparesDescendente - Solicita al usuario un número desde el que se repetirán números impares de forma descendente
 
 import java.util.Scanner;
 public class p45_ImparesDescendente {
