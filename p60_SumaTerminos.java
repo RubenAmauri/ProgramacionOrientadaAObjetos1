@@ -4,21 +4,28 @@ import java.util.Scanner;
 
 public class p60_SumaTerminos {
     public static void main(String[] args) {
-                System.out.print("\033[H\033[2J"); System.out.flush();
-        System.out.println("Número de factorial:"); int n = new Scanner(System.in).nextInt();
+        int i, j, n;
+        float f, r;
+        char resp;
+        Scanner obj = new Scanner(System.in);
+        do {
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
+            r = 0;
+            System.out.print("Ingrese el valor del que se quiere saber la suma y división del factorial: ");
+            n = obj.nextInt();
+            for (i = 1; i <= n; i++) {
+                f = 1;
+                for (j = 1; j <= i; j++) {
+                    f *= j;
 
-        float s=0;
-        for (int i=1; i<=n; i++){
-            float f=1;
-            System.out.printf("1 / ", i);
-            for (int j=1; j<=i; j++){
-                System.out.printf("%d ", j);
-                f=f*j;
+                }
+                System.out.printf(" 1 / %,.2f +\n", f);
+                r += (1 / f);
             }
-            System.out.printf("= %,.0f", f);
-            System.out.println();
-
-        }
+            System.out.printf("= %,.2f\n", r);
+            System.out.print("\nDeseas continuar (S/N) ?");
+            resp = Character.toUpperCase(obj.next().charAt(0));
+        } while (resp != 'N');
     }
-    
 }

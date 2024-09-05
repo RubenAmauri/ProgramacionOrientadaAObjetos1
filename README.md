@@ -74,3 +74,22 @@
 - p49_ParesDescendente
 - p50_ConversionTemperatura
 - p51_SerieFibonacci
+
+## Actividad 9 - Ejecución repetitiva parte 3
+- p52_Numeros1aN
+- p53_NumerosNa1
+- p54_ArribaAbajo
+- p55_SumaParesImpares
+- p56_SumaPromedio
+
+## Actividad 10 - Ejecución repetitiva parte 4
+- p57_TablasMultiplicar
+- p58_Piramide
+- p59_FactorialNumeros
+- p60_SumaTerminos
+
+## Práctica 4 - Ejecución repetitiva - for
+- p61_SecuenciaNumeros1
+- p62_SecuenciaNumeros2
+- p63_SumaTerminos1
+- p64_SumaTerminos2
