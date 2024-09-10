@@ -96,3 +96,6 @@
 
 ## Práctica de repaso - Primer examen parcial
 - p65_SistemaPapeleria
+
+## Primer examen parcial
+- ep01_PrimerExamenParcial
