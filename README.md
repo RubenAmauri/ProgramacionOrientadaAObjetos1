@@ -99,3 +99,10 @@
 
 ## Primer examen parcial
 - ep01_PrimerExamenParcial
+
+## Actividad 11 - Funciones parte 1
+- p66_PromedioNumeros
+- p67_ConversionTemperaturas
+- p68_SumaRango
+- p69_TablaMultiplicar
+- p70_CalificacionLetra

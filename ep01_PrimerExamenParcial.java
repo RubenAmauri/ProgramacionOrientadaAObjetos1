@@ -2,6 +2,8 @@
  * Una escuela ha organizado un curso de técnicas avanzadas de programación y desea llevar el control de la
 *inscripción de los participantes y el dinero recaudado.
 * El usuario ingresará nombre, edad, sexo y tipo de participante
+* si el participante es menor de 23 años, no podrá inscribirse
+* El programa llevará un conteo de cada caso en particular y el total de cada tipo de participante así como el total general
  */
 
 import java.util.Scanner;

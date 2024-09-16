@@ -3,8 +3,8 @@
  * p57_TablasMultiplicar - Se le solicita al usuario un primer número para definir hasta qué tabla (desde la del 1) se va a imprimir
  * Y se le solicita un segundo número para definir hasta qué número se van a multiplicar dichas tablas
  */
-import java.util.Scanner;
 
+ import java.util.Scanner;
 public class p57_TablasMultiplicar {
     public static void main(String[] args) {
         int i, j, n, m;
