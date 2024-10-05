@@ -149,3 +149,20 @@
 - p98_Circulo
 - p99_Rectangulo
 - p100_Articulo
+
+## Actividad 16 - POO Composición parte 1
+- p101_TrabajoPersona
+- p102_AutorLibro
+- p103_ClienteFactura
+
+## Práctica 9 - POO Composición parte 2
+- p104_PuntoCirculo
+- p105_PuntoTriangulo
+
+## Actividad 17 - Herencia y abstracción
+- p106_Persona
+- p107_Forma
+
+## Práctica 10 - Herencia y abstracción 
+- p108_Vehiculo
+- p109_FormaV2
