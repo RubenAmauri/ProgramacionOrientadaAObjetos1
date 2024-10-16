@@ -170,3 +170,9 @@
 ## Ejemplo Cuenta Bancaria
 - p110_CuentaBancariaV1
 - p111_CuentaBancariaV2
+
+## Práctica 11 - Repaso Examen Parcial 02
+- p112_ControlVentas
+
+## Segundo Examen Parcial
+- p113_SegundoExamenParcial
