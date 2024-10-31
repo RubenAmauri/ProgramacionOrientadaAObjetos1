@@ -186,3 +186,6 @@
 ## Actividad 21 - Herencia en interfaces
 - p118_Calculadora
 - p119_Organismo
+
+## Práctica 12 - Interfaz
+- p120_Vehiculo
