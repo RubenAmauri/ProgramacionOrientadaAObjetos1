@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class p78_MedidasLongitud {
     public static void main(String[] args) {
         int op;
-        float res, medida;
+        float medida;
         Scanner obj = new Scanner(System.in);
         System.out.print("\033[H\033[2J");
         System.out.flush();
@@ -40,6 +40,7 @@ public class p78_MedidasLongitud {
             }
 
         } while (op != 3);
+        obj.close();
     }
 
     /**

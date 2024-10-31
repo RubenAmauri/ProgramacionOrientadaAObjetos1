@@ -26,6 +26,7 @@ public class p84_PromedioArreglo {
         promedio = suma / califs.length;
         System.out.printf("\nLa suma de las calificaciones es %.2f", suma);
         System.out.printf("\nEl promedio de las calificaciones es %.2f", promedio);
+        obj.close();
     }
 
 }

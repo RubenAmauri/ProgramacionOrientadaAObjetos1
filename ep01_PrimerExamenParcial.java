@@ -110,5 +110,6 @@ public class ep01_PrimerExamenParcial {
         } else {
             System.out.println("El evento concluye con BUENAS ganancias");
         }
+        obj.close();
     }
 }

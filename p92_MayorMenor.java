@@ -41,5 +41,6 @@ public class p92_MayorMenor {
 
         System.out.printf("\n\nEl número mayor es: %d", mayor);
         System.out.printf("\nEl número menor es: %d\n", menor);
+        scanner.close();
     }
 }

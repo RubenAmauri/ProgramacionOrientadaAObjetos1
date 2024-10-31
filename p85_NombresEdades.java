@@ -29,5 +29,6 @@ public class p85_NombresEdades {
         }
         p = s / edades.length;
         System.out.printf("\nEl promedio de edades es %d", p);
+        obj.close();
     }
 }

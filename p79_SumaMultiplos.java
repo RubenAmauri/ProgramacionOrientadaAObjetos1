@@ -36,6 +36,7 @@ public class p79_SumaMultiplos {
 
         if (ini >= fin) {
             System.out.println("El rango no es válido (inicio debe ser menor que fin)");
+            obj.close();
             return; 
         }
 
@@ -44,10 +45,12 @@ public class p79_SumaMultiplos {
 
         if (multiplo != 3 && multiplo != 4) {
             System.out.println("Opción no válida. Debe elegir 3 o 4.");
+            obj.close();
             return;
         }
 
         suma = sumarMultiplos(ini, fin, multiplo);
         System.out.printf("\nLa suma de los múltiplos de %d es: %d\n", multiplo, suma);
+        obj.close();
     }
 }

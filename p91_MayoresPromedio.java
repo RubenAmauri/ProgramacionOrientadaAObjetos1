@@ -48,5 +48,6 @@ public class p91_MayoresPromedio {
         }
 
         System.out.printf("\n\nCantidad de calificaciones mayores al promedio: %d\n", contadorMayores);
+        scanner.close();
     }
 }

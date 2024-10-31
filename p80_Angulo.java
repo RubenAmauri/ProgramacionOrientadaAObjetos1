@@ -44,5 +44,6 @@ public class p80_Angulo {
         } else {
             System.out.printf("El ángulo es: %s\n", tipoDeAngulo(angulo));
         }
+        obj.close();
     }
 }
