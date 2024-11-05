@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p49_ParesDescendente {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int n, c, s, contador;
         char resp='s';

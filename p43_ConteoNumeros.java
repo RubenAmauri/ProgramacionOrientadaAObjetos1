@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p43_ConteoNumeros {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         int c, n, suma, contadorP, contadorN, contadorC;

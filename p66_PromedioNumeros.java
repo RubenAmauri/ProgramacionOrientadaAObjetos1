@@ -10,6 +10,8 @@ public class p66_PromedioNumeros {
         return promedio;
     }
 
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         float n1, n2, n3, prom;
         Scanner obj = new Scanner(System.in);

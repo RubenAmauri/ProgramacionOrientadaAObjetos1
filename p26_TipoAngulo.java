@@ -4,6 +4,8 @@
 */
 import java.util.Scanner;
 public class p26_TipoAngulo {
+    @SuppressWarnings("resource")
+
     public static void main(String [] args) {
         System.out.print("\033[H\033[2J"); System.out.flush();
         System.out.println("Ingresa un ángulo entre 0 y 360 grados");

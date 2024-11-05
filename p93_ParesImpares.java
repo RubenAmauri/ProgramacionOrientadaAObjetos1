@@ -12,7 +12,6 @@ public class p93_ParesImpares {
         final int MAX = 100;
         
         int[] a = new int[MAX];
-        int[] b = new int[MAX];
         
         Random random = new Random();
         

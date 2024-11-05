@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p14_CalculoTiempo {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args){
         System.out.println("Ingresa la cantidad de horas: ");
         int horas = new Scanner(System.in).nextInt();

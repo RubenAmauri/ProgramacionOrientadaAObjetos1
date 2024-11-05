@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p40_Numeros100a1 {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int c;
         c=100;

@@ -4,6 +4,8 @@
 
 import java.util.Scanner;
 public class p47_ConjeturaCollatz {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int n;
         char resp;

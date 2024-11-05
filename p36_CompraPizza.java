@@ -7,6 +7,8 @@ el descuento y el total con descuento
 
 import java.util.Scanner;
 public class p36_CompraPizza {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args){
         String tam; //Tamaño de la pizza
         double descuento = 0;

@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p12_CalcularTemperatura {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args){
         System.out.println("Ingresa la temperatura en grados Fahrenheit: ");
         double fahrenheit = new Scanner(System.in).nextDouble();

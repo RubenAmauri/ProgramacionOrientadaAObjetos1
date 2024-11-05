@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p35_ContinentesMundo {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args){
         int op;
         Scanner obj = new Scanner(System.in);

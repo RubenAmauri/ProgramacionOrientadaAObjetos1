@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p42_TablaMultiplicar {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int t, c, n;
         Scanner obj = new Scanner(System.in);

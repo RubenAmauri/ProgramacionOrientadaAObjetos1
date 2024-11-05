@@ -1,6 +1,8 @@
 // p22_VerificarSuma - Verifica si la suma de dos numeros es igual a un tercero
 import java.util.Scanner;
 public class p22_VerificarSuma {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int n1, n2, n3;
         Scanner obj = new Scanner(System.in);

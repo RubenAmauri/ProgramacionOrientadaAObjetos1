@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p10_HipotenusaTriangulo {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         System.out.println("Ingrese la longitud 1: ");
         double long1 = new Scanner(System.in).nextDouble();

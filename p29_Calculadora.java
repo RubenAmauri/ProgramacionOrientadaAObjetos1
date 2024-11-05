@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p29_Calculadora {
+    @SuppressWarnings("resource")
+
     public static void main(String [] args){
         double n1, n2;
         char op;

@@ -4,6 +4,8 @@
  */
 import java.util.Scanner;
 public class p27_AceptarEstudiante {
+    @SuppressWarnings("resource")
+
     public static void main(String [] args){
         String nombre;
         int edad;

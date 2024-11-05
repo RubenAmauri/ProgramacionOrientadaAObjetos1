@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p38_AceptarEstudiantev2 {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         String nombre;
         char sexo;

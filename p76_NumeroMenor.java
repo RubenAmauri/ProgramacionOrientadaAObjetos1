@@ -23,6 +23,7 @@ public class p76_NumeroMenor {
 
         return menor;
     }
+    @SuppressWarnings("resource")
 
     public static void main(String[] args) {
         int n1, n2, n3, n4;

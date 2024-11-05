@@ -5,6 +5,8 @@
 import java.util.Scanner;
 
 public class p63_SumaTerminos1 {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p53_NumerosNa1 {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int j,n,p;
         Scanner obj = new Scanner(System.in);

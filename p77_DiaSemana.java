@@ -36,11 +36,13 @@ public class p77_DiaSemana {
     public static void main(String[] args) {
         System.out.print("\033[H\033[2J");
         System.out.flush();
+        Scanner obj = new Scanner(System.in);
 
         System.err.println("Elige un número del 1 al 7");
-        int dia = new Scanner(System.in).nextInt();
+        int dia = obj.nextInt();
 
         String diaSemana = obtenerDiaSemana(dia);
         System.out.println(diaSemana);
+        obj.close();
     }
 }

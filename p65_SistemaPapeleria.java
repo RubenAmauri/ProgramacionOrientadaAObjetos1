@@ -11,6 +11,8 @@
 import java.util.Scanner;
 
 public class p65_SistemaPapeleria {
+    @SuppressWarnings("resource")
+
 
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);

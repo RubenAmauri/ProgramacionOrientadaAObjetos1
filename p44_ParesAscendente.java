@@ -4,6 +4,8 @@
 
 import java.util.Scanner;
 public class p44_ParesAscendente {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int n, c, s;
         char resp;

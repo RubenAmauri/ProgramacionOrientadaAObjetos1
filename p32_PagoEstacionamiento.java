@@ -10,6 +10,8 @@ Luego ingresa el pago por estacionamiento, Finalmente calcular y mostrar el pago
 
  import java.util.Scanner;
 public class p32_PagoEstacionamiento {
+    @SuppressWarnings("resource")
+
     public static void main(String [] args){
         int op;
         float tasa=0, impuesto=0, pago=0, total=0;

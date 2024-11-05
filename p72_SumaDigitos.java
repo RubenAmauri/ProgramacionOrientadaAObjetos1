@@ -11,6 +11,7 @@ public class p72_SumaDigitos {
         }
         return suma;
     }
+    @SuppressWarnings("resource")
 
     public static void main(String[] args) {
         long numero;

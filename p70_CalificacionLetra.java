@@ -18,6 +18,7 @@ public class p70_CalificacionLetra {
 
         return letra;
     }
+    @SuppressWarnings("resource")
 
     public static void main(String[] args) {
         float cal;

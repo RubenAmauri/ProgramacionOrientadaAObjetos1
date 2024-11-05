@@ -1,7 +1,8 @@
 // p23_ConvertirTemperatura - Convertir temperatura de grados celcius a farenheit y viceversa
-import java.io.Console;
 import java.util.Scanner;
 public class p23_ConvertirTemperatura {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         char op;
         float temp, res;

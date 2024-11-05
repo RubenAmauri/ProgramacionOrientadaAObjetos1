@@ -1,6 +1,8 @@
 // p21_VerificarNumero - Verifica si un número es postivo, negativo o cero
 import java.util.Scanner;
 public class p21_VerificarNumero {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int n;
         System.out.println("Verfica si un número es postivo, negativo o cero\n");

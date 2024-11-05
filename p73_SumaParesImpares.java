@@ -17,6 +17,7 @@ public class p73_SumaParesImpares {
         }
         return suma;
     }
+    @SuppressWarnings("resource")
 
     public static void main(String[] args) {
         int ini, fin, suma;

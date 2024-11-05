@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p37_CalculoNotas {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int n;
         float cal, suma, promedio;

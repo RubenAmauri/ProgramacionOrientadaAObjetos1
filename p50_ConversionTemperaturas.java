@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p50_ConversionTemperaturas {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char continuar='s';

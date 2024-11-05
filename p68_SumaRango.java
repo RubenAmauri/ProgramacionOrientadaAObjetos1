@@ -9,6 +9,8 @@ public class p68_SumaRango {
         }
         return suma;
     }
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         int suma = 0, ini, fin;

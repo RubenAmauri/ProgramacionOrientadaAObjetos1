@@ -1,6 +1,8 @@
 //p11_CalcularAngulo - Calcula el ángulo de un triángulo dados sus otros ángulos
 import java.util.Scanner;
 public class p11_CalcularAngulo {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args){
         System.out.println("Ingresa el ángulo 1: ");
         double ang1 = new Scanner(System.in).nextDouble();

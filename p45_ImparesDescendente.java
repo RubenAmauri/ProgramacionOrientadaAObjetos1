@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p45_ImparesDescendente {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int n, c, s;
         char resp;

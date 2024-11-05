@@ -1,6 +1,8 @@
 // p25_EstacionesAño - Muestra la estación del año que corresponde al número introducido
 import java.util.Scanner;
 public class p25_EstacionesAño {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         System.out.print("\033[H\033[2J"); System.out.flush();
         System.out.println("Muestra la estacion del año en base al número:\n");

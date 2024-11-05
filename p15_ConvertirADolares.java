@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p15_ConvertirADolares {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         System.out.println("Cuántos pesos quiere convertir? ");
         double pesos = new Scanner(System.in).nextDouble();

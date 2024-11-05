@@ -3,6 +3,7 @@ package p103_ClienteFactura;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class App {
+    @SuppressWarnings("resource")
     public static Factura Llenar(){
         Factura factura = new Factura();
         Cliente cliente = new Cliente();

@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p51_SerieFibonacci {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char continuar='s';

@@ -2,8 +2,11 @@
 
 import java.util.Scanner;
 public class p07_OperadoresAsignacion {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args){
         System.out.print("\033 [H033[2J"); System.out.flush(); //Borra el contenido en la terminal
+        
         System.out.println("Dame un número entero");
         float  num = new Scanner(System.in).nextFloat();
 

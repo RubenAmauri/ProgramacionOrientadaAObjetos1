@@ -3,6 +3,8 @@
 
 import java.util.Scanner;
 public class p46_TablaConversion {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int ini, fin, c;
         float tc = 18.74f, te=25.00f;

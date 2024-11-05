@@ -23,5 +23,6 @@ public class p06_PromedioCalificaciones {
         System.out.printf("El promedio es:  %.2f\n", prom);
         System.out.printf("Máximo valor: %.2f\n", max);
         System.out.printf("Mínimo valor %.2f\n", min);
+        obj.close();
     }
 }

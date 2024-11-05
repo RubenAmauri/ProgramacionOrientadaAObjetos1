@@ -3,9 +3,11 @@
 import java.util.Scanner;
 
 public class p67_ConversionTemperaturas {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         int op;
-        float res, temp;
+        float temp;
         Scanner obj = new Scanner(System.in);
         System.out.print("\033[H\033[2J");
         System.out.flush();

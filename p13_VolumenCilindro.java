@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 public class p13_VolumenCilindro {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args) {
         System.out.println("Ingrese el radio: ");
         double radio = new Scanner(System.in).nextDouble();

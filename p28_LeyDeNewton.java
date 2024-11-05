@@ -3,6 +3,8 @@
  */
 import java.util.Scanner;
 public class p28_LeyDeNewton {
+    @SuppressWarnings("resource")
+
     public static void main(String[] args){
         float fuerza, masa, aceleracion;
         char op;

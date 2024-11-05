@@ -12,6 +12,7 @@ public class p69_TablaMultiplicar {
             System.out.printf("%d x %d = %d\n", tabla, i, tabla * i);
         }
     }
+    @SuppressWarnings("resource")
 
     public static void main(String[] args) {
         int t, n;
