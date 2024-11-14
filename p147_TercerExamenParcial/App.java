@@ -70,6 +70,7 @@ public class App extends JFrame {
         return panel;
     }
 
+    @SuppressWarnings("unused")
     private JPanel crearPanelBotones() {
         JPanel panel = new JPanel();
         JButton btnAgregar = new JButton("Agregar");
@@ -80,6 +81,8 @@ public class App extends JFrame {
         panel.add(btnGuardar);
         return panel;
     }
+
+    @SuppressWarnings("unused")
 
     private JMenuBar crearMenu() {
         JMenuBar menuBar = new JMenuBar();

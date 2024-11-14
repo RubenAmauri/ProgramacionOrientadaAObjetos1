@@ -14,6 +14,8 @@ public class UtileriaJugador {
         }
     }
 
+    @SuppressWarnings("unchecked")
+
     public static List<Jugador> cargarJugadores(String archivo) {
         List<Jugador> jugadores = new ArrayList<>();
         try (var ois = new ObjectInputStream(new FileInputStream(archivo))) {

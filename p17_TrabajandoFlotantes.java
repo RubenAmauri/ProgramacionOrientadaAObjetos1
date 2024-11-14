@@ -1,6 +1,5 @@
 //p17_TrabajandoFlotantes - Trabajando con numeros y literales de tipo flotante
 public class p17_TrabajandoFlotantes {
-    @SuppressWarnings("unused")
     public static void main(String[] args) {    
         float num1 = 423.45f; //Se pone la f para indicar que es un float
         float num2 = 123.0f;
