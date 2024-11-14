@@ -18,7 +18,6 @@ public class App extends JFrame {
         setSize(700, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Aquí ya no deberíamos tener el modificador 'final' en los campos de texto
         modeloTabla = new DefaultTableModel(new Object[]{"Nombre", "Edad", "Sexo", "Estado Civil", "Descripción", "Salario"}, 0);
         tablaJugadores = new JTable(modeloTabla);
         tablaJugadores.addMouseListener(new MouseAdapter() {
@@ -29,7 +28,7 @@ public class App extends JFrame {
         });
 
         JScrollPane scrollPane = new JScrollPane(tablaJugadores);
-        JPanel panelDatos = crearPanelDatos();  // Asumimos que aquí se crean los campos de texto sin final
+        JPanel panelDatos = crearPanelDatos(); 
         JPanel panelBotones = crearPanelBotones();
         JMenuBar menuBar = crearMenu();
 
